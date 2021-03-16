@@ -26,8 +26,8 @@ public class Fetch_Student_Detail_Corresspondingto_Rollnumber1 {
 			System.out.println("Enter Roll Number:");
 			Scanner scan = new Scanner(System.in);
 
-			int student = scan.nextInt();
-			String number = String.valueOf(student); // convert integer to string
+			int j = scan.nextInt();
+			String number = String.valueOf(j); // convert integer to string
 
 			while ((line = reader.readLine()) != null) {
 
